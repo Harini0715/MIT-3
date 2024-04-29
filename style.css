@@ -1,0 +1,63 @@
+body{
+  background-color: pink;
+}
+
+.pinkbox{
+  display: flex;
+  padding: 50px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/bg-intro-desktop.png);
+}
+.cont2{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.rightdown{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: row;
+  color: grey;
+}
+.cont1{
+  text-align: justify;
+  padding-top: 30px;
+  color: white;
+  font-family: url(https://fonts.google.com/specimen/Poppins);
+  font-weight: Weights: 400;
+
+}
+#try{
+  background-color: hwb(246 35% 21%);
+  border-radius: 5px;
+  border-color: hwb(246 35% 21%);
+  color: white;
+  width: auto;
+  cursor: pointer;
+  width: 500px;
+  height: 25px;
+}
+#enter{
+  background-color: hsl(154, 59%, 51%);
+  border-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+a{
+  font-size: 12px;
+  color: hsl(0, 100%, 74%) ;
+}
+h5{
+  color: grey;
+}
+#bg{
+  
+}
